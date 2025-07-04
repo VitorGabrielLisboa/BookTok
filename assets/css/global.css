@@ -5,7 +5,16 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  display: flex; /* Transforma o body em um container flexível */
+  flex-direction: column; /* Organiza os filhos (header, main, footer) em coluna */
+}
 
+main {
+  flex-grow: 1; /* Faz com que o main ocupe todo o espaço vertical disponível, empurrando o footer para baixo */
+  /* Adicione um padding-bottom aqui para ter espaço entre o conteúdo do main e o footer */
+  padding-bottom: 20px; /* Ou um valor que você ache adequado */
+}
 *::-webkit-scrollbar {
   height: 5px;
   width: 8px;
