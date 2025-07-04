@@ -1,16 +1,10 @@
 <div align="center">
-  <img src="https://images.seeklogo.com/logo-png/24/1/unicesumar-logo-png_seeklogo-249430.png" alt="Unicesumar Logo" title="Unecesumar Logo" width="200">
+  <img src="/Project/assets/img/unicesumar-logo-png_seeklogo-249430.png" alt="Unicesumar Logo" title="Unecesumar Logo" width="200">
 </div>
 
 <div align="center">
 
-![Static Badge](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white&labelColor=%23222222&color=%23E34F26)
-![Static Badge](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white&labelColor=%23222222&color=%231572B6)
-![Static Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black&labelColor=%23222222&color=%23F7DF1E)
-![Static Badge](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white&labelColor=%23222222&color=%237952B3)
-![Static Badge](https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white&labelColor=%23222222&color=%23CC6699)
-![Static Badge](https://img.shields.io/badge/Bootstrap%20Icons-7952B3?style=flat&logo=bootstrapicons&logoColor=white&labelColor=%23222222&color=%237952B3)
-![Static Badge](https://img.shields.io/badge/Open%20Library%20API-blue?style=flat&labelColor=%23222222&color=%23007bff)
+![Static Badge](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white&labelColor=%23222222&color=%23E34F26) ![Static Badge](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white&labelColor=%23222222&color=%231572B6) ![Static Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black&labelColor=%23222222&color=%23F7DF1E) ![Static Badge](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white&labelColor=%23222222&color=%237952B3) ![Static Badge](https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white&labelColor=%23222222&color=%23CC6699) ![Static Badge](https://img.shields.io/badge/Bootstrap%20Icons-7952B3?style=flat&logo=bootstrapicons&logoColor=white&labelColor=%23222222&color=%237952B3) ![Static Badge](https://img.shields.io/badge/Open%20Library%20API-blue?style=flat&labelColor=%23222222&color=%23007bff)
 
 </div>
 
@@ -18,7 +12,7 @@
 
 # 📚 BookTok: Descubra seu Próximo Livro!
 
-> Projeto desenvolvido como parte de uma atividade avaliativa da Instituição Unicesumar.
+> Projeto desenvolvido para ser entregue como uma atividade avaliativa da Instituição Unicesumar.
 
 ---
 
@@ -50,3 +44,5 @@
 - A aplicação busca detalhes de autores através de uma segunda requisição à API Open Library para o endpoint de autores, o que pode introduzir uma pequena latência adicional ao carregar os detalhes completos no modal.
 
 ---
+
+<div align="center"> <p style="font-size: 0.6em;">Não está perfeito, mas é close enough ✨</p></div>
