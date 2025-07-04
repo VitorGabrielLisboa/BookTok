@@ -1,0 +1,167 @@
+main {
+  /* background: #dddddd; */
+}
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.container .containerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  text-align: justify;
+}
+
+.container .containerText ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container .containerText ul li {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0.4rem 0;
+}
+
+.container .containerText ul li i {
+  margin-right: 0.5rem;
+}
+
+.container .formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 35%;
+}
+.container form {
+  background: none;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.5rem;
+}
+.container form .box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.container form .box span {
+  position: absolute;
+  top: 100%;
+  display: none;
+  margin-left: 0.5rem;
+  font-size: 0.6rem;
+  color: crimson;
+}
+
+.container form .box.active span {
+  display: inline;
+}
+
+.container form .box input,
+.container form .box textarea {
+  padding: 0 0.5rem;
+  height: 40px;
+  outline: none;
+  border: 1px solid #f1f1f1;
+  border-radius: 0.2rem;
+  background: #f1f1f1;
+  outline: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+  &:hover,
+  &:valid,
+  &:focus {
+    border: 1px solid #0d6efd;
+  }
+}
+
+.container form .box.active input,
+.container form .box.active textarea {
+  border: 1px solid crimson;
+}
+
+.container form .box.valid input,
+.container form .box.valid textarea {
+  border: 1px solid #3cb371;
+}
+input[type="submit"] {
+  background: none;
+  border: 2px solid #0d6efd;
+  outline: none;
+  height: 40px;
+  width: 100px;
+  color: #0d6efd;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 0.2rem;
+
+  &:hover {
+    background: #0d6efd;
+    color: #ccc;
+  }
+}
+.container form .box textarea {
+  resize: none;
+  padding: 0.3rem 0.5rem;
+  margin: 0;
+}
+
+.container form .box label {
+  margin: 0 0.5rem;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  font-size: 16px;
+  pointer-events: none;
+  color: #888;
+  transition: all 0.5s ease;
+  font-weight: 500;
+}
+
+.container form .box.active label {
+  color: crimson;
+}
+
+.container form .box.valid label {
+  color: #3cb371;
+}
+.box input:focus ~ label,
+.box input:valid ~ label {
+  transform: translateY(-100%);
+  top: 40%;
+  font-size: 0.5rem;
+  color: #0d6efd;
+}
+
+.box textarea:focus ~ label,
+.box textarea:valid ~ label {
+  transform: translateY(-100%);
+  top: 40%;
+  font-size: 0.5rem;
+  color: #0d6efd;
+}
+
+@media (max-width: 577px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
+/* .container form .textBox label {
+  transform: translateY(-80%);
+} */
